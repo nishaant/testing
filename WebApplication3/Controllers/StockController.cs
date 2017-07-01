@@ -56,7 +56,7 @@ namespace WebApplication3.Controllers
 
         
 
-        //Delete API
+        //Delete API to delete the Stocks from The Database
         [Route("api/Stock/{id}")]
         public IHttpActionResult Delete(int id)
         {
